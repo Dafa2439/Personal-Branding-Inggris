@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Personal Branding - Dafa Rizqi Arkananta</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-logo">Dafa Rizqi Arkananta</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#cv">Curriculum Vitae</a></li>
+    </ul>
+  </nav>
+
+  <section id="home">
+    <div class="hero-inner">
+
+      <div class="hero-photo">
+        <div class="photo-frame">
+          <img id="hero-photo" src="assets/homepage.jpg" alt="Foto profil"/>
+        </div>
+      </div>
+
+      <div class="hero-text">
+        <span class="hero-tag">✦ Personal Branding</span>
+        <h1>Hi, I'm <em>Dafa</em> —<br>Interested in Networking & Cybersecurity</h1>
+        <p>I'm a SIJA student who is really curious about the world of networking and cybersecurity. I like to explore how systems work, how networks are built, and how to keep them secure. I'm currently focusing on developing my skills through hands-on practice and learning new things in the field of IT.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="about-inner">
+      <div class="about-text reveal">
+        <p class="section-label">Let's Get to Know Each Other</p>
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about-accordion" data-active="riwayat">
+          <div class="about-tabs" role="tablist" aria-label="About Me">
+            <button class="about-tab is-active" type="button" role="tab" aria-selected="true" aria-controls="about-panel-riwayat" data-key="riwayat">Family History</button>
+            <button class="about-tab" type="button" role="tab" aria-selected="false" aria-controls="about-panel-pendidikan" data-key="pendidikan">Education and Hobbies</button>
+            <button class="about-tab" type="button" role="tab" aria-selected="false" aria-controls="about-panel-minat" data-key="minat">Interests and Aspirations</button>
+            <button class="about-tab" type="button" role="tab" aria-selected="false" aria-controls="about-panel-kelebihan" data-key="kelebihan">Personal Strengths</button>
+          </div>
+
+          <div class="about-panel">
+            <div id="about-panel-riwayat" class="about-panel-card is-active" role="tabpanel" data-key="riwayat">
+              <h3>Family History</h3>
+              <p>I come from a family that has always supported my education and personal development. I am an only child in my family, which has made me accustomed to being a self-reliant and responsible person. My family environment is one of the motivations for me to continue learning, growing, and pursuing my dreams in the field of information technology.</p>
+            </div>
+
+            <div id="about-panel-pendidikan" class="about-panel-card" role="tabpanel" data-key="pendidikan" aria-hidden="true">
+              <h3>Education and Hobbies</h3>
+              <p>I started my education at TK Pratama Wijaya, then continued to SD Negeri Candi 1 Semarang, SMP Negeri 9 Semarang, and currently I am studying at SMK Negeri 7 Semarang majoring in Network and Application Information Systems (SIJA). In my free time, I have a hobby of watching movies.</p>
+            </div>
+
+            <div id="about-panel-minat" class="about-panel-card" role="tabpanel" data-key="minat" aria-hidden="true">
+              <h3>Interests and Aspirations</h3>
+              <p>I have a strong interest in the field of computer networking and cybersecurity. I am interested in learning how systems work, managing network security, and understanding digital threats in the technology world. I aspire to become a professional in the field of cybersecurity who can maintain secure and efficient network systems.</p>
+            </div>
+
+            <div id="about-panel-kelebihan" class="about-panel-card" role="tabpanel" data-key="kelebihan" aria-hidden="true">
+              <h3>Personal Strengths</h3>
+              <p>I have several personal strengths, such as the ability to adapt well, effective communication, and the ability to work well in a team. I am also someone who always wants to improve myself by trying various new things.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="skills-inner">
+      <p class="section-label">My Skills</p>
+      <h2 class="section-title">Skills</h2>
+
+      <div class="skills-grid">
+        <div class="skills-bars">
+          <div class="skill-item reveal">
+            <div class="skill-header">
+              <span class="skill-name">HTML & CSS</span>
+              <span class="skill-pct">65%</span>
+            </div>
+            <div class="bar-bg"><div class="bar-fill" data-pct="65"></div></div>
+          </div>
+
+          <div class="skill-item reveal">
+            <div class="skill-header">
+              <span class="skill-name">JavaScript</span>
+              <span class="skill-pct">40%</span>
+            </div>
+            <div class="bar-bg"><div class="bar-fill" data-pct="40"></div></div>
+          </div>
+
+          <div class="skill-item reveal">
+            <div class="skill-header">
+              <span class="skill-name">UI/UX Design</span>
+              <span class="skill-pct">50%</span>
+            </div>
+            <div class="bar-bg"><div class="bar-fill" data-pct="50"></div></div>
+          </div>
+
+          <div class="skill-item reveal">
+            <div class="skill-header">
+              <span class="skill-name">Networking</span>
+              <span class="skill-pct">85%</span>
+            </div>
+            <div class="bar-bg"><div class="bar-fill" data-pct="85"></div></div>
+          </div>
+
+          <div class="skill-item reveal">
+            <div class="skill-header">
+              <span class="skill-name">Cybersecurity</span>
+              <span class="skill-pct">75%</span>
+            </div>
+            <div class="bar-bg"><div class="bar-fill" data-pct="75"></div></div>
+          </div>
+        </div>
+
+        <div class="skills-focus">
+          <div class="focus-card reveal">
+            <p class="focus-label">Main Focus</p>
+            <h3>Networking</h3>
+            <p>I have a strong interest in the world of computer networking, from basic configuration, device management, to troubleshooting connections. I enjoy learning how a network can function stably, securely, and efficiently in supporting modern technology needs.</p>
+          </div>
+
+          <div class="focus-card reveal">
+            <p class="focus-label">Main Focus</p>
+            <h3>Cybersecurity</h3>
+            <p>I also focus on studying various aspects of cybersecurity to understand how to protect systems and networks from digital threats. For me, security is an important part of the IT world because maintaining data and systems safe is the main responsibility in the digital age.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>  
+
+  <section id="portfolio">
+    <div class="portfolio-inner">
+      <p class="section-label">Works / Projects</p>
+      <h2 class="section-title">Portfolio</h2>
+
+      <div class="portfolio-grid">
+        <article class="portfolio-card reveal">
+          <div class="portfolio-thumb">
+            <img class="portfolio-thumb-img" src="assets/websitesiswa.png" alt="Preview Website Absensi Siswa" loading="lazy" />
+          </div>
+
+          <div class="portfolio-head">
+            <h3 class="portfolio-title">Student Attendance Website</h3>
+            <button class="portfolio-toggle" type="button" aria-expanded="false" aria-controls="portfolio-body-1">Expand</button>
+          </div>
+
+          <div class="portfolio-body" id="portfolio-body-1">
+            <ul class="portfolio-list">
+              <li>A dynamic website used by students to perform attendance.</li>
+              <li><a class="portfolio-link" href="https://web-siswa-ten.vercel.app/" target="_blank" rel="noopener noreferrer">https://web-siswa-ten.vercel.app/</a></li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="portfolio-card reveal">
+          <div class="portfolio-thumb">
+            <img class="portfolio-thumb-img" src="assets/websiteadmin.png" alt="Preview Website Monitoring Absensi untuk Admin" loading="lazy" />
+          </div>
+
+          <div class="portfolio-head">
+            <h3 class="portfolio-title">Attendance Monitoring Website for Admins</h3>
+            <button class="portfolio-toggle" type="button" aria-expanded="false" aria-controls="portfolio-body-2">Expand</button>
+          </div>
+
+          <div class="portfolio-body" id="portfolio-body-2">
+            <ul class="portfolio-list">
+              <li>A dynamic website used by admins to monitor student attendance activities on the previous website.</li>
+              <li><a class="portfolio-link" href="https://web-admin-gilt.vercel.app/" target="_blank" rel="noopener noreferrer">https://web-admin-gilt.vercel.app/</a></li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="portfolio-card reveal">
+          <div class="portfolio-thumb">
+            <img class="portfolio-thumb-img" src="assets/websiteroblox.png" alt="Preview Website Roblox World" loading="lazy" />
+          </div>
+
+          <div class="portfolio-head">
+            <h3 class="portfolio-title">Roblox World Website</h3>
+            <button class="portfolio-toggle" type="button" aria-expanded="false" aria-controls="portfolio-body-3">Expand</button>
+          </div>
+
+          <div class="portfolio-body" id="portfolio-body-3">
+            <ul class="portfolio-list">
+              <li>A static website that displays various popular games on Roblox as well as its community.</li>
+              <li><a class="portfolio-link" href="https://robloxworld.infinityfree.me/" target="_blank" rel="noopener noreferrer">https://robloxworld.infinityfree.me/</a></li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="cv">
+    <div class="cv-inner">
+      <p class="section-label">My Documents</p>
+      <h2 class="section-title">Curriculum Vitae</h2>
+
+      <button class="cv-toggle" type="button" aria-expanded="false" aria-controls="cv-panel">Open CV</button>
+
+      <div class="cv-panel" id="cv-panel" aria-hidden="true">
+        <div class="cv-preview" aria-label="Preview CV">
+          <embed class="cv-embed" src="assets/CV.pdf#page=1&view=FitH&navpanes=0&toolbar=0&scrollbar=0" type="application/pdf" />
+        </div>
+        <a class="cv-download" href="assets/CV.pdf" download>Download</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Dafa Rizqi Arkananta</p>
+    <div class="social-links">
+      <a href="https://www.instagram.com/inttegr?igsh=Y3cxbWJmMHgwbTNj" target="_blank" rel="noopener noreferrer" title="Instagram">IG</a>
+      <a href="https://www.linkedin.com/in/dafa-arkananta-05b3a1392" target="_blank" rel="noopener noreferrer" title="LinkedIn">in</a>
+    </div>
+  </footer>
+
+  <script>
+    // Scroll reveal
+    const reveals = document.querySelectorAll('.reveal');
+    const io = new IntersectionObserver(entries => {
+      entries.forEach((entry, i) => {
+        if (entry.isIntersecting) {
+          entry.target.style.transitionDelay = (i % 4) * 0.1 + 's';
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.15 });
+    reveals.forEach(el => io.observe(el));
+
+    // Skill bar animation
+    const bars = document.querySelectorAll('.bar-fill');
+    const barObserver = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const pct = entry.target.dataset.pct;
+          entry.target.style.width = pct + '%';
+          barObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.4 });
+    bars.forEach(bar => barObserver.observe(bar));
+
+    // About accordion interaction
+    const aboutAccordion = document.querySelector('.about-accordion');
+    if (aboutAccordion) {
+      const tabs = Array.from(aboutAccordion.querySelectorAll('.about-tab'));
+      const panels = Array.from(aboutAccordion.querySelectorAll('.about-panel-card'));
+
+      const setAboutActive = (key) => {
+        aboutAccordion.dataset.active = key;
+
+        tabs.forEach(tab => {
+          const isActive = tab.dataset.key === key;
+          tab.classList.toggle('is-active', isActive);
+          tab.setAttribute('aria-selected', String(isActive));
+        });
+
+        panels.forEach(panel => {
+          const isActive = panel.dataset.key === key;
+          panel.classList.toggle('is-active', isActive);
+          panel.setAttribute('aria-hidden', String(!isActive));
+        });
+      };
+
+      aboutAccordion.addEventListener('click', (e) => {
+        const tab = e.target.closest('.about-tab');
+        if (!tab) return;
+        const key = tab.dataset.key;
+        if (!key) return;
+        setAboutActive(key);
+      });
+
+      // Ensure initial state is consistent
+      setAboutActive(aboutAccordion.dataset.active || 'riwayat');
+    }
+
+    // Portfolio expand/collapse
+    const portfolioToggles = document.querySelectorAll('.portfolio-toggle');
+    portfolioToggles.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const card = btn.closest('.portfolio-card');
+        if (!card) return;
+        const bodyId = btn.getAttribute('aria-controls');
+        const body = bodyId ? document.getElementById(bodyId) : null;
+        if (!body) return;
+
+        const isOpen = card.classList.toggle('is-open');
+        btn.setAttribute('aria-expanded', String(isOpen));
+        btn.textContent = isOpen ? 'Close' : 'Expand';
+        body.classList.toggle('is-open', isOpen);
+      });
+    });
+
+    // CV open/close
+    const cvToggle = document.querySelector('.cv-toggle');
+    const cvPanel = document.querySelector('.cv-panel');
+    if (cvToggle && cvPanel) {
+      cvToggle.addEventListener('click', () => {
+        const isOpen = cvPanel.classList.toggle('is-open');
+        cvToggle.setAttribute('aria-expanded', String(isOpen));
+        cvPanel.setAttribute('aria-hidden', String(!isOpen));
+        cvToggle.textContent = isOpen ? 'Close CV' : 'Open CV';
+      });
+    }
+  </script>
+
+</body>
+</html>
